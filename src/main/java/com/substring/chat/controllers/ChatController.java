@@ -19,7 +19,8 @@ import com.substring.chat.repositories.RoomRepository;
 @Controller
 @CrossOrigin("http://localhost:3000")
 public class ChatController {
-  
+
+
    private RoomRepository roomRepo;
    public ChatController(RoomRepository roomRepo){
     this.roomRepo=roomRepo;
